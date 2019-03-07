@@ -34,7 +34,7 @@ export class Sidebar extends  React.Component {
         theme={this.state.theme}
         onClick={this.handleClick}
         style={{width: 200}}
-        defaultOpenKeys={['d3']}
+        defaultOpenKeys={['home']}
         selectedKeys={[this.state.current]}
         mode="inline"
         onSelect={this.handleSelect}
